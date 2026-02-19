@@ -1,0 +1,305 @@
+body {
+  background-image: url("../imgs/fundo.jpg");
+  background-size: auto;
+  background-repeat: repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-color: rgba(0,0,0,0.5);
+  background-blend-mode: darken;
+}
+
+.navbar {
+    background: linear-gradient(90deg, #0f9d58, #1e88e5);
+}
+
+.navbar {
+    padding: 12px 20px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+}
+
+
+.navbar-brand h6 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 32px;
+    margin: 0;
+    margin-left: 12px;
+    color: #fff;
+    font-weight: normal;
+}
+
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+.icone-login {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+
+/* centralizar tudo vertical e horizontal */
+.container {
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icone-login {
+    width: 45px;
+    height: 45px;
+    border-radius: 20%;
+    object-fit: cover;
+    display: block;
+    margin: 10 auto;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.3);
+}
+
+
+
+
+/* Estilo do título Menu */
+.card-home .card-header h6 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    letter-spacing: 0.5px;
+    padding-top: 10px;
+}
+
+/* Estilo dos nomes: Células / Membros */
+.menu-label {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #ffffff; /* azul suave */
+    text-align: center;
+    margin-bottom: 8px;
+    transition: 0.3s ease;
+}
+
+/* Efeito ao passar o mouse */
+.menu-label:hover {
+    color: #09ff00;
+    transform: translateY(-2px);
+}
+
+/* Ajustar o ícone com o texto */
+.menu-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* CARD DE LOGIN */
+.card-login {
+  width: 100%;
+  max-width: 420px;
+}
+
+.card-login .card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-login .card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 30px rgba(0,0,0,0.25);
+}
+
+
+/* ÍCONES REDONDOS E ANIMADOS */
+.card-home img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    padding: 5px;
+    background: rgba(0, 255, 55, 0.25);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-home img:hover {
+    transform: scale(1.12) rotate(3deg);
+    box-shadow: 0 0 12px rgba(255, 255, 255, 0.7);
+}
+
+/* ANIMAÇÃO DO CARD */
+.card-home .card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* ELEVAÇÃO AO PASSAR O MOUSE */
+.card-home .card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 30px rgba(0,0,0,0.25);
+}
+
+/* AQUI VOCÊ SOBE O CARD */
+.card-home {
+    margin-top: -30px;   /* ajuste o valor como quiser */
+}
+      .card-home {
+        padding: 30px 0 0 0;
+        width: 100%;
+        margin: 0 auto;
+      }
+
+      /* CORES DAS OPÇÕES */
+      select option {
+        background-color: #222; /* fundo escuro */
+        color: #fff;            /* texto branco */
+     }     
+.card-consulta {
+  padding: 30px 0 0 0;
+}
+
+/* efeito glassmorphism DO CARD */
+.card {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 12px;
+  padding: 20px;
+  border: 1px solid rgba(255,255,255,0.2);
+  color: white;
+}
+
+.form-control::placeholder {
+  color: #eaeaea;
+}
+
+.form-control {
+  background: rgba(255,255,255,0.2);
+  color: white;
+  border: 1px solid rgba(255,255,255,0.3);
+}
+
+.form-control:focus {
+  background: rgba(255,255,255,0.25);
+  color: white;
+}
+
+/* ============================
+   CARD FLUTUANTE (INSTAGRAM)
+   ============================ */
+
+/* Hover suave para o card flutuante */
+.floating-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.floating-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 30px rgba(0,0,0,0.25);
+}
+
+.floating-card {
+  position: fixed;
+  top: 80px;
+  width: 220px;
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0px 8px 20px rgba(0,0,0,0.35);
+  animation: slideUp 0.6s ease-out;
+  z-index: 9999;
+}
+
+/* Posicionar os 3 cards em fileira horizontal no topo */
+#promoCard1 {
+  left: auto;
+  right: 20px !important;
+  top: 90px;
+}
+
+#promoCard2 {
+  left: auto;
+  right: 270px !important;
+  top: 90px;
+}
+
+#promoCard3 {
+  left: auto;
+  right: 520px !important;
+  top: 90px;
+}
+
+/* imagem do card flutuante */
+.floating-card .card-img {
+  width: 100%;
+  height: 170px;
+  object-fit: cover;
+}
+
+.floating-card .card-content {
+  padding: 15px;
+  color: #222;
+  text-align: center;
+}
+
+/* fontes */
+.floating-card h4 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  margin: 0 0 8px;
+  font-size: 18px;
+}
+
+.floating-card h6 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  opacity: 0.9;
+}
+
+.floating-card p {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  opacity: 0.85;
+  margin: 0 0 12px;
+}
+
+/* botão fechar */
+.close-btn {
+  position: absolute;
+  top: 5px;
+  right: 8px;
+  background: rgba(255,255,255,0.8);
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 50%;
+  width: 26px;
+  height: 26px;
+  line-height: 22px;
+  text-align: center;
+}
+
+.glass {
+    background: rgba(255, 255, 255, 0.863);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.034);
+}
+
+
+
+/* animação */
+@keyframes slideUp {
+  0% { transform: translateY(50px); opacity: 0; }
+  100% { transform: translateY(0); opacity: 1; }
+}
+
+select option {
+    background-color: #222; /* cor de fundo */
+    color: #fff;            /* cor do texto */
+}
+
+
+
